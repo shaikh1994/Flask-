@@ -4,41 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="description" content="Digitize and Translate your notes with Azure Cognitive Services and Python.">
-    <title>Digitize and Translate your makins</title>
+    <title>Slack-Bot</title>
 </head>
 <body>
+    
     <div class="container">
         <div class="header">
-            <h1 id="title">Digitize and Translate your notes with Azure Cognitive Services</h1>
-            <p id="description">Enter the URL of your image (handwritten notes), choose a language, and click Translate!</p>
+            <h1 id="title">Slack-Bot deployment log</h1>
+            <p id="description">Slack Deployment Log</p>
         </div>
         
-        <div>
-            <form method="POST" id="form">
-                <div class="form-group">
-                    <label for="image">Handwritten notes:</label>
-                    <input type="url" id="image" name="image" class="form-control" placeholder="Enter the URL of your image" required>
-                </div>
-                <div class="form-group">
-                    <label for="language">Language:</label>
-                    <select id="nagage" name="language" class="form-control">
-                        <option value="en">English</option>
-                        <option value="el">Greek</option>
-                        <option value="fr">French</option>
-                        <option value="it">Italian</option>
-                        <option value="de">German</option>
-                        <option value="ja">Japanese</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="submit-button">Translate!</button>
-                </div>
-            </form>
-        </div>
-    </div>
-    <div class="footer">
-        <p>Created by Foteini Savvidou</p>
-    </div>
+        <ul>
+            <i class="fa fa-check-circle" style="font-size:24px">Establishing Connection With  https://github.com/srabbitarifica/abs_slack_flask_app</i>
+            <i class="fa fa-check-circle" style="font-size:24px">Connection Established</i>
+            <i class="fa fa-check-circle" style="font-size:24px">Establishing Connection with Slack Api</i>
+            <i class="fa fa-check-circle" style="font-size:24px">Requesting OAuth & Permission </i>
+            <i class="fa fa-check-circle" style="font-size:24px">Bot User OAuth Token Verified</i>
+            <i class="fa fa-check-circle" style="font-size:24px">Slack Has Been Sucessfully Connected With Azure App Service</i>
+            <i class="fa fa-check-circle" style="font-size:24px">https://portal.azure.com/#@absolutcountgmail.onmicrosoft.com/resource/subscriptions/aaae88ce-5fec-41ad-b7b6-73fa08d92147/resourcegroups/slack/providers/Microsoft.Web/sites/slack-0/appServices</i>
+            <i class="fa fa-check-circle" style="font-size:24px">Slack Bot Successfully Deployed</i>
+            <i class="fa fa-check-circle" style="font-size:24px">Slack Bot Successfully Deployed</i>
+        </ul>  
+        
+
 </body>
 </html>
